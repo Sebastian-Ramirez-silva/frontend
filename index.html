@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación de Sacos de Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Clasificación Automática de Café</h1>
+        <form id="camionForm">
+            <label for="numCamiones">Número de Camiones:</label>
+            <input type="number" id="numCamiones" name="numCamiones" min="1" required>
+            <div id="camionData"></div>
+            <button type="submit">Procesar</button>
+        </form>
+        <div id="resultados"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
